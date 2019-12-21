@@ -1,10 +1,5 @@
 # WaterFallView
-
-<p align="center">
-  <img src="" alt="CI" />
-  <img src="https://img.shields.io/badge/platform-iOS-blue.svg?style=flat" alt="Platforms" />
-  <img src="https://img.shields.io/badge/Swift-5.1-orange.svg" />
-  <a href="https://github.com/nachonavarro/Pages/blob/master/LICENSE"><img src="http://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="License: MIT" /></a>
+[![Build Status](https://travis-ci.com/TomFrank/WaterFallView.svg?branch=master)](https://travis-ci.com/TomFrank/WaterFallView) ![Platforms](https://img.shields.io/badge/platform-iOS-blue.svg) ![](https://img.shields.io/badge/Swift-5.1-orange.svg) [![License: MIT](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/TomFrank/WaterFallView/blob/master/LICENSE)
 
 A Waterfall View For SwiftUI
 
