@@ -3,7 +3,7 @@
 
 A Waterfall View For SwiftUI
 
-<img src="/Users/zzj/GitHub/WaterFallView/WaterFallViewSample/Images/ScreenShot.png" style="zoom:20%;" />
+<img src="./WaterFallViewSample/Images/ScreenShot.png" style="zoom:20%;" />
 
 ## Requirements
 
