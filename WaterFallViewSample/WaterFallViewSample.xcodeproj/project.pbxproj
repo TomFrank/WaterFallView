@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E9351F923ADCE6E002DA41D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9351F823ADCE6E002DA41D /* AppDelegate.swift */; };
+		1E9351FB23ADCE6E002DA41D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9351FA23ADCE6E002DA41D /* SceneDelegate.swift */; };
+		1E9351FD23ADCE6E002DA41D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9351FC23ADCE6E002DA41D /* ContentView.swift */; };
+		1E9351FF23ADCE6F002DA41D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E9351FE23ADCE6F002DA41D /* Assets.xcassets */; };
+		1E93520223ADCE6F002DA41D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E93520123ADCE6F002DA41D /* Preview Assets.xcassets */; };
+		1E93520523ADCE6F002DA41D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E93520323ADCE6F002DA41D /* LaunchScreen.storyboard */; };
+		1E93523223ADD6DA002DA41D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E93523123ADD6DA002DA41D /* Card.swift */; };
+		1E93523523ADD6E9002DA41D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E93523323ADD6E9002DA41D /* CardView.swift */; };
+		1E93523623ADD6E9002DA41D /* DataGenerator .swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E93523423ADD6E9002DA41D /* DataGenerator .swift */; };
+		1E93523A23ADE03A002DA41D /* WaterFallView in Frameworks */ = {isa = PBXBuildFile; productRef = 1E93523923ADE03A002DA41D /* WaterFallView */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E9351F523ADCE6E002DA41D /* WaterFallViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterFallViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E9351F823ADCE6E002DA41D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E9351FA23ADCE6E002DA41D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1E9351FC23ADCE6E002DA41D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1E9351FE23ADCE6F002DA41D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E93520123ADCE6F002DA41D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1E93520423ADCE6F002DA41D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E93520623ADCE6F002DA41D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E93522E23ADCEE4002DA41D /* WaterFallView */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WaterFallView; path = ..; sourceTree = "<group>"; };
+		1E93523123ADD6DA002DA41D /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		1E93523323ADD6E9002DA41D /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		1E93523423ADD6E9002DA41D /* DataGenerator .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataGenerator .swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E9351F223ADCE6E002DA41D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E93523A23ADE03A002DA41D /* WaterFallView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E9351EC23ADCE6E002DA41D = {
+			isa = PBXGroup;
+			children = (
+				1E93522E23ADCEE4002DA41D /* WaterFallView */,
+				1E9351F723ADCE6E002DA41D /* WaterFallViewSample */,
+				1E9351F623ADCE6E002DA41D /* Products */,
+				1E93520C23ADCEC6002DA41D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1E9351F623ADCE6E002DA41D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E9351F523ADCE6E002DA41D /* WaterFallViewSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E9351F723ADCE6E002DA41D /* WaterFallViewSample */ = {
+			isa = PBXGroup;
+			children = (
+				1E9351F823ADCE6E002DA41D /* AppDelegate.swift */,
+				1E9351FA23ADCE6E002DA41D /* SceneDelegate.swift */,
+				1E9351FC23ADCE6E002DA41D /* ContentView.swift */,
+				1E93523123ADD6DA002DA41D /* Card.swift */,
+				1E93523323ADD6E9002DA41D /* CardView.swift */,
+				1E93523423ADD6E9002DA41D /* DataGenerator .swift */,
+				1E9351FE23ADCE6F002DA41D /* Assets.xcassets */,
+				1E93520323ADCE6F002DA41D /* LaunchScreen.storyboard */,
+				1E93520623ADCE6F002DA41D /* Info.plist */,
+				1E93520023ADCE6F002DA41D /* Preview Content */,
+			);
+			path = WaterFallViewSample;
+			sourceTree = "<group>";
+		};
+		1E93520023ADCE6F002DA41D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1E93520123ADCE6F002DA41D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1E93520C23ADCEC6002DA41D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E9351F423ADCE6E002DA41D /* WaterFallViewSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E93520923ADCE6F002DA41D /* Build configuration list for PBXNativeTarget "WaterFallViewSample" */;
+			buildPhases = (
+				1E9351F123ADCE6E002DA41D /* Sources */,
+				1E9351F223ADCE6E002DA41D /* Frameworks */,
+				1E9351F323ADCE6E002DA41D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterFallViewSample;
+			packageProductDependencies = (
+				1E93523923ADE03A002DA41D /* WaterFallView */,
+			);
+			productName = WaterFallViewSample;
+			productReference = 1E9351F523ADCE6E002DA41D /* WaterFallViewSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E9351ED23ADCE6E002DA41D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Peking University";
+				TargetAttributes = {
+					1E9351F423ADCE6E002DA41D = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 1E9351F023ADCE6E002DA41D /* Build configuration list for PBXProject "WaterFallViewSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E9351EC23ADCE6E002DA41D;
+			productRefGroup = 1E9351F623ADCE6E002DA41D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E9351F423ADCE6E002DA41D /* WaterFallViewSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E9351F323ADCE6E002DA41D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E93520523ADCE6F002DA41D /* LaunchScreen.storyboard in Resources */,
+				1E93520223ADCE6F002DA41D /* Preview Assets.xcassets in Resources */,
+				1E9351FF23ADCE6F002DA41D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E9351F123ADCE6E002DA41D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E9351F923ADCE6E002DA41D /* AppDelegate.swift in Sources */,
+				1E9351FB23ADCE6E002DA41D /* SceneDelegate.swift in Sources */,
+				1E9351FD23ADCE6E002DA41D /* ContentView.swift in Sources */,
+				1E93523223ADD6DA002DA41D /* Card.swift in Sources */,
+				1E93523623ADD6E9002DA41D /* DataGenerator .swift in Sources */,
+				1E93523523ADD6E9002DA41D /* CardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E93520323ADCE6F002DA41D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E93520423ADCE6F002DA41D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E93520723ADCE6F002DA41D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E93520823ADCE6F002DA41D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E93520A23ADCE6F002DA41D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WaterFallViewSample/Preview Content\"";
+				DEVELOPMENT_TEAM = JQ7389Q38X;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WaterFallViewSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.pku.ss.WaterFallViewSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E93520B23ADCE6F002DA41D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WaterFallViewSample/Preview Content\"";
+				DEVELOPMENT_TEAM = JQ7389Q38X;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WaterFallViewSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.edu.pku.ss.WaterFallViewSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E9351F023ADCE6E002DA41D /* Build configuration list for PBXProject "WaterFallViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E93520723ADCE6F002DA41D /* Debug */,
+				1E93520823ADCE6F002DA41D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E93520923ADCE6F002DA41D /* Build configuration list for PBXNativeTarget "WaterFallViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E93520A23ADCE6F002DA41D /* Debug */,
+				1E93520B23ADCE6F002DA41D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1E93523923ADE03A002DA41D /* WaterFallView */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WaterFallView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1E9351ED23ADCE6E002DA41D /* Project object */;
+}
