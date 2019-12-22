@@ -7,7 +7,7 @@ A Waterfall View For SwiftUI
 
 ## Requirements
 
-- iOS 13.0+ / macOS 10.15+ / tvOS 13.0+ / watchOS 6.0+
+- iOS 13.0+
 
 - Xcode 11.0+
 
