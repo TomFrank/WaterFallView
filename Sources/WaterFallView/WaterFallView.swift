@@ -21,11 +21,13 @@ public struct WaterFallView<Data, ID, Content>: View where Content : View, ID : 
                     self.content($0)
                 }
             }
+            .padding([.trailing], 2.5)
             VStack {
                 ForEach(odd, id: dataId) {
                     self.content($0)
                 }
             }
+            .padding([.leading], 2.5)
         }
         .padding([.leading, .trailing], 5)
     }
